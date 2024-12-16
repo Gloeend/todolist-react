@@ -39,7 +39,7 @@ table {
   border-collapse: collapse;
 }
 
-/* Safari - solving issue when using user-select:none on the <body> text input doesn't working */
+/* Safari - solving issue when using tasks-select:none on the <body> text input doesn't working */
 input, textarea {
   -webkit-user-select: auto;
 }
@@ -68,7 +68,7 @@ meter {
 
 /* revert for bug in Chromium browsers
    - fix for the content editable attribute will work properly.
-   - webkit-user-select: auto; added for Safari in case of using user-select:none on wrapper element*/
+   - webkit-tasks-select: auto; added for Safari in case of using tasks-select:none on wrapper element*/
 :where([contenteditable]:not([contenteditable="false"])) {
   -moz-user-modify: read-write;
   -webkit-user-modify: read-write;

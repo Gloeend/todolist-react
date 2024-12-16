@@ -1,0 +1,1 @@
+export {ProductDeleteModal} from "./ProductDeleteModal.tsx";
